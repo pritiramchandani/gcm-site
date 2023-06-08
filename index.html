@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    
+</head>
+
+<body>
+    <style>
+    
+        *{margin: 0;
+        padding: 0;}
+    
+            .sixth-section {
+                border-bottom-left-radius: 6%;
+                border-top-left-radius: 6%;
+                background-color: #19404C;
+            }
+    
+    
+            .sixth-section-box {
+                border-radius: 0 40px 40px 0;
+                background-color: #19404C;
+            }
+    
+            .sixth-section-image {
+                border-radius: 0 40px 40px 0;
+                max-width: 100%;
+                height: 100%;
+    
+            }
+    
+            .sixth-section-text {
+                font-size: calc(.8rem + .33vw);
+                text-align: center;
+                padding: inherit;
+            }
+
+       
+           
+            @media (max-width:576px) {
+                .responsive{
+                 border-radius: 20px 20px 0 0;
+                 padding-bottom: 30px;
+                   
+                }
+                .img-responsive{
+                    border-radius: 0 0 20px 20px;
+                    
+                }
+                .responsive-text{    padding-bottom: 15px;}
+            }
+
+
+
+        </style>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="d-flex d-flex flex-wrap">
+                    <div class=" pt-5 p-2 col-sm-6 sixth-section responsive text-white ">
+                        <p class="sixth-section-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Molestiae consequuntur ut ullam eius sit repellendus? Consectetur delectus rem, ducimus
+                            tempore cumque repudiandae, ea quod obcaecati dicta, dolores totam unde aliquam minima atque
+                            tenetur id officia maiores officiis quidem est odit! Quibusdam labore eos cumque sit nisi,
+                            facilis delectus sed. Temporibus?</p>
+
+                            <p class=" pt-5 mb-0 content">Margaret Sherman</p>
+                            <p class="  mb-0  text-secondary  responsive-text">CEO of Square</p>
+                    </div>
+                    <div class="col-sm-6 sixth-section-box m-0 ">
+                        <img src="cta-img.jpg" class="sixth-section-image img-fluid  img-responsive" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
